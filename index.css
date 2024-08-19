@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+* {
+    text-decoration: none;
+}
+
+body {
+    background-image: url('img/tech\ 2.jpeg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    padding-top: 0px;
+}
+div {
+    width: 400px;
+    height: 600px;
+    padding-top: 30px;
+    padding-left: 150px;
+    margin-top: 0px;
+    margin-left: 400px; 
+    background-color: #fefefe88;
+    border-radius: 15px;
+    }
+ .div2 {
+    width: 400px;
+    height: 300px;
+    padding-top: 50px;
+    padding-left: 150px;
+    margin-top: 70px;
+    margin-left: 400px; 
+    background-color: #fefefe88;
+    border-radius: 15px;
+        }
+input {
+    width: 250px;
+    height: 40px;
+    border-radius: 15px;
+}
+.input2 {
+    width: 30px;
+    height: 40px;
+}
+option {
+    width: 250px;
+    height: 40px;
+    border-radius: 15px;
+}
+button {
+    width: 70;
+    height: 20;
+    margin-left: 100px;
+    border-radius: 15px; 
+    background-color: red;
+}
+
+h3 {
+    color: navy;
+    font-size: 35px;
+}
