@@ -13,16 +13,7 @@ function get_fullname(object $pdo, string $fullname)
    return  $result;
 }
 
-function get_email(object $pdo, string $email)
- {
-   $query = "SELECT email FROM users WHERE email = :email;";
-   $stmt = $pdo->prepare($query);
-   $stmt->bindParam(":email", $email);
-   $stmt->execute();
 
-   $result = $stmt->fetch(PDO::FETCH_ASSOC);
-   return  $result;
-}
 
 function get_phonenumber(object $pdo, string $phonenumber)
  {
@@ -60,12 +51,12 @@ $hashedpwd = password_hash($pwd, PASSWORD_BCRYPT, $options);
 $stmt->bindParam(":fullname", $fullname);
 $stmt->bindParam(":email", $email);
 $stmt->bindParam(":phonenumber", $phonenumber);
-  $stmt->bindParam(":username", $username);
-  $stmt->bindParam(":pwd", $hashedpwd);
+$stmt->bindParam(":username", $username);
+$stmt->bindParam(":pwd", $hashedpwd);
   // $stmt->bindParam(":confirmedpwd", $confirmedpwd);
-   $stmt->bindParam(":gender", $gender);
-   $stmt->bindParam(":state", $state);
-  $stmt->execute();
+$stmt->bindParam(":gender", $gender);
+$stmt->bindParam(":state", $state);
+$stmt->execute();
 
   return "fullname:$fullname, email:$email, phonenumber:$phonenumber, username:$username, pwd:$pwd,  gender:$gender, state:$state";
 } 

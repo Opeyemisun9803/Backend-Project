@@ -39,16 +39,16 @@ require_once 'includes/signup_view.inc.php';
     <label for="state">SELECT STATE</label>
     <select class="input"name="state" id="state" required>
       <option value="SELECT">--STATES--</option>
-      <option value="ABIA">ABIA</option>
-      <option value="ENUGUN">ENUGUN</option>
-      <option value="IMO">IMO</option>
-      <option value="OYO">OYO</option>
-      <option value="OSUN">OSUN</option>
-      <option value="LAGOS">LAGOS</option>
-      <option value="ONDO">ONDO</option>
-      <option value="EDO">EDO</option>
-      <option value="OGUN">OGUN</option>
-      <option value="ADAMAWA">ADAMAWA</option>
+      <option value="ABIA">Abia State</option>
+      <option value="ENUGUN">Enugun State</option>
+      <option value="IMO">Imo State</option>
+      <option value="OYO">Oyo State</option>
+      <option value="OSUN">Osun State</option>
+      <option value="LAGOS">Lagos State</option>
+      <option value="ONDO">Ondo State</option>
+      <option value="EDO">Edo State</option>
+      <option value="OGUN">Ogun State</option>
+      <option value="ADAMAWA">ADAMAWA State</option>
     </select><br><br> 
 
     <label for="Gender">GENDER</label><br> 
